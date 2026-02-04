@@ -65,7 +65,7 @@ or
 - () => ...
 */
 
-let sayHi = () => "Hi!"; // WRITE HERE
+let sayHi = () => "Hi!"; 
 
 runTest("Exercise 1.1 (expect 'Hi!'):", () => sayHi());
 
@@ -197,7 +197,7 @@ you can omit `return` and `{}`.
 Rewrite multiplyShort using implicit return.
 */
 
-const multiplyShort = (a, b) => a * b; // WRITE HERE ;
+const multiplyShort = (a, b) => a * b; 
 
 runTest("Exercise 3.2 (expect 12):", () => multiplyShort(3, 4));
 
@@ -261,7 +261,7 @@ Use map() to double each number.
 Store the result in doubled.
 */
 
-const doubled = numbers.map(n => n * 2); // WRITE HERE ;
+const doubled = numbers.map(n => n * 2); 
 
 runTest("Exercise 5.1 (expect [2,4,6,8]):", () => doubled);
 
@@ -330,7 +330,7 @@ const broken = (n) => { n * 2 };
 Write a corrected version named fixed.
 */
 
-const fixed = n => n * 2; // WRITE HERE ;
+const fixed = n => n * 2; 
 
 runTest("Exercise 7.1 (expect 10):", () => fixed(5));
 
@@ -366,7 +366,7 @@ const addOne = n => { n + 1 };
 Write a corrected version named addOne.
 */
 
-const addOne = n => n + 1; // WRITE HERE ;
+const addOne = n => n + 1; 
 
 runTest("Exercise 7.3 (expect 6):", () => addOne(5));
 
@@ -376,7 +376,11 @@ runTest("Exercise 7.3 (expect 6):", () => addOne(5));
 
 /*
 1) What is a callback in your own words?
+   A callback is a function that is passed as an argument to another function and it is executed after some kind of event or operation has occurred.
 2) When do arrow functions save typing?
+   An Arrow function save typing when the function body is a single expression.
 3) When do arrow functions cause confusion?
+   An Arrow function can cause confusion when it is used with a block body.
 4) Where do callbacks appear in Shopkeeper?
+   A Callback appears in Shopkeeper when we add event listeners to elements, such as when we listen for changes in the inventory or when we handle user interactions.
 */
